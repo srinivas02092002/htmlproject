@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form elements</title>
+</head>
+<body>
+    <form>
+        <label for="name">full name</label><br>
+        <input type="text" placeholder="enter" value="" id="name" name="lk"><br>
+        <input type="submit"/><br>
+        <select name="" id="" multiple >
+            <optgroup  label="phones" >
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="green">green</option>
+            <option value="yellow">yellow</option>
+            </optgroup>
+            <optgroup label="laptops">
+            <option value="" selected readonly >select</option>
+            <option value="">macbook</option>
+            <option value="">dell</option>
+            <option value="">asus</option>
+            </optgroup>
+            
+            </optgroup>
+        </select><br>
+        <label>country</label>
+        <input list="cs">
+        <datalist id="cs" >
+            <option value="ind">ind</option>
+            <option value="pak">pak</option>
+            <option value="aus">aus</option>
+            <option value="nz">nz</option>
+        </datalist><br>
+        <textarea name="" id="ddd" cols="6" rows="6"></textarea><br>
+        <button type="reset">reset</button>
+        <fieldset><legend >title</legend>
+             <label for="fname"  >FIRST NAME:</label> <br>
+    <input type="text" placeholder="enter name" id="fname" name="firstname"><br>
+    <label for="lname">LAST NAME:</label><br>
+    <input type="text " placeholder="enter name" id="lname" name="lastname"><br>
+    <label for="email">EMAIL:</label><br>
+    <input type="email" placeholder=" enter email" id="email" name="gmail"><br>
+        </fieldset>
+        <button label="please select">select</button>
+    </form>
+    
+    
+</body>
+</html>
