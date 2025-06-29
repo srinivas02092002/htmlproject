@@ -1,0 +1,13 @@
+table
+{border-collapse: collapse;
+    width:100%;
+    text-align: center;
+}
+.header{color: purple;
+
+}
+.off{background-color: blue;}
+.dept{background-color: rgb(55, 39, 20);}
+.mat{background-color: brown;}
+.ec{background-color: rgb(48, 41, 32);}
+.csc{background-color: rgb(112, 72, 11);}
